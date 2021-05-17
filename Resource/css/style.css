@@ -414,9 +414,11 @@ nav {
   margin-left: 15px;
 }
 
-#icon img:hover,
-#icon-mobile img:hover {
+#icon img:hover {
   content: url("img/realive-green1.png");
+}
+#icon-mobile img:hover {
+  content: url("img/realive-green.png");
 }
 
 #icon {
