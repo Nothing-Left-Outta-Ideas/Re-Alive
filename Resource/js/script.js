@@ -23,7 +23,7 @@ $(document).ready(function () {
         $(this).removeClass('shadow-pulse');
     });
     
-    $('.js--section-why').waypoint(function (direction) {
+    $('.js--section-concept').waypoint(function (direction) {
         if (direction == "down") {
             $('.about-us').addClass('underline');
         } else {
