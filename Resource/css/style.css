@@ -400,21 +400,33 @@ nav {
   color: #00ff19;
 }
 
-#icon img {
+#icon img,
+#icon-mobile img {
   width: 50px;
   height: 50px;
   margin-left: 30px;
-  margin-top: 2.5px;
+  margin-top: 3.5px;
   transition: all 0.2s;
   border-radius: 50%;
 }
 
-#icon img:hover {
+#icon-mobile img {
+  margin-left: 15px;
+}
+
+#icon img:hover,
+#icon-mobile img:hover {
   content: url("img/realive-green1.png");
 }
 
 #icon {
   border: 0px !important;
+}
+
+#icon-mobile {
+  display: none;
+  width: 130px;
+  height: 100%;
 }
 
 /*----------------------------------------------- SECTION-WHY  ---------------------------------------------------*/

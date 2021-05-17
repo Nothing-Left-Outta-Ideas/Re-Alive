@@ -133,10 +133,17 @@
     display: inline-block;
     width: 130px;
     height: 100%;
-    left: 50%;
+    left: calc(50% - 130px);
+    top: -33px;
     position: relative;
     margin-right: -50%;
     transform: translate(-50%, 0);
+  }
+
+  #icon-mobile {
+    display: inline-block;
+    width: 130px;
+    height: 100%;
   }
 }
 
@@ -244,10 +251,17 @@
     display: inline-block;
     width: 130px;
     height: 100%;
-    left: 50%;
+    left: calc(50% - 130px);
+    top: -33px;
     position: relative;
     margin-right: -50%;
     transform: translate(-50%, 0);
+  }
+
+  #icon-mobile {
+    display: inline-block;
+    width: 130px;
+    height: 100%;
   }
 }
 
