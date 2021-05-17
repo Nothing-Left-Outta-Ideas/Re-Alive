@@ -481,8 +481,7 @@ nav {
   height: fit-content;
 }
 
-.phases:link,
-.phases:visited {
+.phases {
   width: 27.26vw;
   height: 27.26vw;
   background-color: #888888;
@@ -492,9 +491,16 @@ nav {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, 0%);
-  text-decoration: none;
+}
+
+.phases h3 {
+  width: fit-content;
   font-size: 150%;
-  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 /*----------------------------------------------- SECTION-OFFER  ---------------------------------------------------*/
