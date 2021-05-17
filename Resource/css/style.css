@@ -159,7 +159,7 @@ h3 {
   left: -50%;
   transform-origin: right;
   transform: translate(50%, 0%);
-  margin-top: 0;
+  margin: 0 auto 20px auto;
   margin-bottom: 0;
   padding: 0 20px 0 5px;
   font-size: 240%;
@@ -176,6 +176,7 @@ h3 {
 
 .phases-box h2 {
   width: fit-content;
+  margin: 0 auto 20px auto;
   position: relative;
   display: block;
   margin-top: 0;
@@ -191,6 +192,7 @@ h3 {
   left: -50%;
   transform-origin: right;
   transform: translate(50%, 0%);
+  margin: 0 auto 20px auto;
   padding: 0 20px 0 5px;
   text-align: left;
 }
@@ -203,13 +205,13 @@ h3 {
 #section-phase2 h2 {
   left: 50%;
   transform-origin: left;
-  transform: translate(-50%, 0%);
+  margin: 0 50% 20px auto;
   padding: 0 5px 0 20px;
   text-align: right;
 }
 
 #section-phase2 h2:hover {
-  transform: translateX(-52.5%);
+  transform: translateX(-2.5%);
 }
 
 .footer-title {
@@ -235,6 +237,7 @@ header {
     url(img/Comunity.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   z-index: 10;
 }
 
@@ -397,11 +400,28 @@ nav {
   color: #00ff19;
 }
 
+#icon img {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 2.5px;
+  transition: all 0.2s;
+  border-radius: 50%;
+}
+
+#icon img:hover {
+  content: url("img/realive-green1.png");
+}
+
+#icon {
+  border: 0px !important;
+}
+
 /*----------------------------------------------- SECTION-WHY  ---------------------------------------------------*/
 
 #section-why {
   width: 100%;
-  padding: 55px 25px;
+  padding: 55px 25px 20px 25px;
   z-index: 20;
   background-color: #00ff19;
   -webkit-box-shadow: 0 0px 10px 0px rgba(32, 33, 36, 0.75);
@@ -447,6 +467,15 @@ nav {
   transform: scale(1.1);
 }
 
+#section-why img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 50%;
+  margin: 20px -50% 0 0;
+  transform: translate(-50%, 0);
+}
+
 /*----------------------------------------------- SECTION-CONCEPT  ---------------------------------------------------*/
 
 #section-concept {
@@ -464,7 +493,7 @@ nav {
 #section-offer {
   padding: 30px 5%;
   width: 97%;
-  background: url(.jpg), #e1e1e1;
+  background: #e1e1e1;
   border-radius: 31px;
   position: relative;
   left: 50%;
@@ -720,6 +749,17 @@ footer {
   z-index: 10;
 }
 
+.footer-img {
+  width: 200px;
+  height: 200px;
+  transition: all 0.2s;
+  border-radius: 50%;
+}
+
+.footer-img:hover {
+  content: url("img/realive-green.png");
+}
+
 .footer-list-row {
   margin-top: 20px;
 }
@@ -745,7 +785,16 @@ footer {
 
 .fotter-list p {
   font-size: 80%;
-  margin-top: 15px;
+  margin: 15px auto 0 auto;
+  padding: 0 8px;
+  border-bottom: 2px solid transparent;
+  width: fit-content;
+  transition: all 0.2s;
+}
+
+.fotter-list p:hover {
+  color: #00ff19;
+  border-color: #00ff19;
 }
 
 /*----------------------------------------------- ANIMATIONS ---------------------------------------------------*/
