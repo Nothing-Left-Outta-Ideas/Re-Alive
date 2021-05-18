@@ -214,6 +214,21 @@ h3 {
   transform: translateX(-2.5%);
 }
 
+.section-cause h2 {
+  width: fit-content;
+  font-size: 240%;
+  font-weight: 600;
+  border-bottom: 4px solid #00ff19;
+  padding: 0 20px 0 20px;
+  transform-origin: center;
+  transition: all 0.2s;
+  margin: 0 auto;
+}
+
+.section-cause h2:hover {
+  transform: scale(1.05);
+}
+
 .footer-title {
   font-size: 200%;
   color: #fff;
@@ -750,6 +765,22 @@ nav {
 
 .connect:hover {
   transform: scale(1.1);
+}
+
+.section-cause {
+  background-color: #f1f1f1;
+  padding: 55px 2.5%;
+}
+
+.section-cause div {
+  width: 40%;
+  text-align: center;
+  height: fit-content;
+  margin: 20px -50% 0 0;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-size: 110%;
 }
 
 /*----------------------------------------------- FOOTER ---------------------------------------------------*/

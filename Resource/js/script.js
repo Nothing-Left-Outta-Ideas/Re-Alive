@@ -75,10 +75,19 @@ $(document).ready(function () {
     $('.js--section-support').waypoint(function (direction) {
         if (direction == "down") {
             $('.phase-3').removeClass('underline');
-            $('.our-cause').addClass('underline');
         } 
         if (direction == "up"){
             $('.phase-3').addClass('underline');
+        };
+    }, {
+        offset: '150px;'
+    });
+
+    $('.js--section-cause').waypoint(function (direction) {
+        if (direction == "down") {
+            $('.our-cause').addClass('underline');
+        } 
+        if (direction == "up"){
             $('.our-cause').removeClass('underline');
         };
     }, {
