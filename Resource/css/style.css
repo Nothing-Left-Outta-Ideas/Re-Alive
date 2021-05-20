@@ -425,12 +425,11 @@ nav {
 
 #icon img,
 #icon-mobile img {
-  width: 50px;
+  width: 127.856226px;
   height: 50px;
   margin-left: 30px;
   margin-top: 3.5px;
   transition: all 0.2s;
-  border-radius: 50%;
 }
 
 #icon-mobile img {
