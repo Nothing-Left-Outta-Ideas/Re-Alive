@@ -138,6 +138,11 @@ a {
   transform: scale(1.05);
 }
 
+#section-why h2 {
+  font-size: 320%;
+  border-color: #42b2ff;
+}
+
 #section-concept h2 {
   width: fit-content;
   position: relative;
@@ -148,11 +153,15 @@ a {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0 5px 0 20px;
-  font-size: 240%;
+  font-size: 320%;
   font-weight: 600;
   text-align: right;
   border-bottom: 4px solid #00ff19;
   transition: all 0.2s;
+}
+
+#section-concept h2:last-child {
+  margin-top: 10px;
 }
 
 #section-concept h2:hover {
@@ -182,6 +191,14 @@ a {
   transform: translateX(52.5%);
 }
 
+.support-h2 {
+  font-size: 320%;
+}
+
+#support-h2-last-child {
+  margin-top: 10px !important;
+}
+
 .phases-box h2 {
   width: fit-content;
   margin: 0 auto 20px auto;
@@ -195,8 +212,7 @@ a {
   transition: all 0.2s;
 }
 
-#section-phase1 h2,
-#section-phase3 h2 {
+#section-phase1 h2 {
   left: -50%;
   transform-origin: right;
   transform: translate(50%, 0%);
@@ -205,9 +221,19 @@ a {
   text-align: left;
 }
 
-#section-phase1 h2:hover,
-#section-phase3 h2:hover {
+#section-phase3 h2 {
+  transform-origin: center;
+  margin: 0 auto 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+#section-phase1 h2:hover {
   transform: translateX(52.5%);
+}
+
+#section-phase3 h2:hover {
+  transform: scale(1.05);
 }
 
 #section-phase2 h2 {
@@ -224,13 +250,20 @@ a {
 
 .section-cause h2 {
   width: fit-content;
-  font-size: 240%;
+  font-size: 320%;
   font-weight: 600;
   border-bottom: 4px solid #00ff19;
   padding: 0 20px 0 20px;
   transform-origin: center;
   transition: all 0.2s;
   margin: 0 auto;
+  color: #fff;
+  line-height: 3rem;
+}
+
+.section-cause h2:last-child {
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .section-cause h2:hover {
@@ -242,6 +275,7 @@ a {
   color: #fff;
   border-color: #00ff19;
   text-transform: lowercase;
+  line-height: 2rem;
 }
 
 /*----------------------------------------------- HOMEPAGE  ---------------------------------------------------*/
@@ -308,7 +342,7 @@ header {
 /*----------------------------------------------- NAVIGATION  ---------------------------------------------------*/
 nav {
   margin: 0;
-  background-color: rgba(12, 12, 16, 0.95);
+  background-color: rgba(12, 12, 16, 1);
   width: 100% !important;
   -webkit-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.5);
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.5);
@@ -410,7 +444,7 @@ nav {
   padding: 0 6.5% !important;
   -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
-  -webkit-text-decoration-color: transparent;
+  -webkit-text-decorationsection-phase1-color: transparent;
   text-decoration-color: transparent;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -458,8 +492,26 @@ nav {
 #section-why {
   width: 100%;
   padding: 55px 25px 20px 25px;
-  z-index: 20;
-  background-color: #00ff19;
+  background-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.25),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(255, 255, 255, 0.25),
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 1)
+    ),
+    url(img/why-so.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
   -webkit-box-shadow: 0 0px 10px 0px rgba(32, 33, 36, 0.75);
   box-shadow: 0 0px 10px 0px rgba(32, 33, 36, 0.75);
   z-index: 10;
@@ -475,6 +527,12 @@ nav {
   margin-right: -50%;
   transform: translate(-50%, 0%);
   font-size: 110%;
+}
+
+#why-para {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 .btn-more:link,
@@ -549,13 +607,44 @@ nav {
 .phases {
   width: 27.26vw;
   height: 27.26vw;
-  background-color: #888888;
-  border-radius: 30px;
-  transform: matrix(1, -0.01, 0.01, 1, 0, 0);
   position: relative;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, 0%);
+  transform-origin: center;
+  transition: all 0.3s;
+}
+
+.phases:hover {
+  transform: scale(1.05);
+}
+
+#p1 {
+  background-image: url(img/causes.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#p1 h3 {
+  color: #fff;
+  background-color: rgba(12, 12, 16, 0.75);
+}
+
+#p2 {
+  background-image: url(img/One-woman.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#p2 h3,
+#p3 h3 {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+#p3 {
+  background-image: url(img/phase3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .phases h3 {
@@ -566,6 +655,7 @@ nav {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  padding: 15px;
 }
 
 /*----------------------------------------------- SECTION-OFFER  ---------------------------------------------------*/
@@ -582,8 +672,8 @@ nav {
 }
 
 .phases-box {
-  height: 75vh;
-  padding: 30px 5%;
+  height: fit-content;
+  padding: 55px 5%;
   width: 97%;
   background: #181818;
   position: relative;
@@ -602,8 +692,20 @@ nav {
   float: right;
 }
 
+#section-phase3 {
+  text-align: center;
+}
+
+#section-phase3 p {
+  float: none;
+}
+
 .search-box {
   width: 477px;
+}
+
+#section-phase3 .search-box {
+  margin: 0 auto;
 }
 
 #sb-2 {
@@ -665,13 +767,90 @@ nav {
   width: fit-content;
 }
 
-.pmr-1,
-.pmr-3 {
+.pmr-1 {
   margin-left: 21%;
 }
 
 .pmr-2 {
   margin-right: 21%;
+}
+
+.pmr-3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.phase1-box {
+  background-image: linear-gradient(
+      280deg,
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1)
+    ),
+    url(img/synopsis.jpg);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.phase2-box {
+  background-image: linear-gradient(
+      80deg,
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1)
+    ),
+    url(img/loneliness.jpg);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.phase3-box {
+  background-image: linear-gradient(
+      80deg,
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 1),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0),
+      rgba(24, 24, 24, 0)
+    ),
+    url(img/nutshell.jpg);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*----------------------------------------------- SECTION-SUPPORT  ---------------------------------------------------*/
@@ -748,6 +927,7 @@ nav {
   transform-origin: bottom center;
   transition: all 0.2s;
   padding: 0 11px;
+  line-height: 2rem;
 }
 
 .support-card h3:hover {
@@ -777,6 +957,12 @@ nav {
 .section-cause {
   background-color: #f1f1f1;
   padding: 55px 2.5%;
+  background-image: url(img/happy.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: 0px 21px 10px -18px rgba(32, 33, 36, 0.75) inset;
 }
 
 .section-cause div {
@@ -788,6 +974,9 @@ nav {
   left: 50%;
   transform: translate(-50%, 0%);
   font-size: 110%;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
 }
 
 /*----------------------------------------------- FOOTER ---------------------------------------------------*/
@@ -899,4 +1088,25 @@ footer {
 .underline {
   border-bottom: 2px solid #00ff19 !important;
   color: #00ff19 !important;
+}
+
+.fa-search {
+  margin-top: 3.5px;
+}
+
+/*────────────────── 
+     Scrollbar
+──────────────────*/
+::-webkit-scrollbar {
+  width: 10px;
+  background: rgba(5, 5, 5, 1);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: black;
+  box-shadow: inset 0 0 20px rgba(245, 245, 245, 0.671);
+}
+::-webkit-scrollbar-track {
+  margin-top: 80px;
+  border-radius: 10px;
 }
