@@ -728,7 +728,7 @@ nav {
   margin-top: 15px;
   margin-right: 5px;
   transition: all 0.2s;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .search-box-small:hover {
