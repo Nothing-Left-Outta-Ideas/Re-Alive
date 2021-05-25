@@ -75,9 +75,11 @@ $(document).ready(function () {
     $('.js--section-support').waypoint(function (direction) {
         if (direction == "down") {
             $('.phase-3').removeClass('underline');
+            $('.our-cause').addClass('underline');
         } 
         if (direction == "up"){
             $('.phase-3').addClass('underline');
+            $('.our-cause').removeClass('underline');
         };
     }, {
         offset: '150px;'
@@ -85,10 +87,10 @@ $(document).ready(function () {
 
     $('.js--section-cause').waypoint(function (direction) {
         if (direction == "down") {
-            $('.our-cause').addClass('underline');
+            $('.our-cause').removeClass('underline');
         } 
         if (direction == "up"){
-            $('.our-cause').removeClass('underline');
+            $('.our-cause').addClass('underline');
         };
     }, {
         offset: '150px;'
@@ -118,4 +120,20 @@ $(document).ready(function () {
         };
     });
     
+    $('#btn-modal').click(function () {
+        $('#myModal').addClass('display-block');
+    });
+
+    $('.close').click(function () {
+        $('#myModal').removeClass('display-block');
+    });
+
+    $('#myModal').click(function (event) {
+        var modal = event.target.getAttribute('id');
+        if (modal == "myModal") {
+            $('#myModal').removeClass('display-block');
+        }
+    });
+
+
 });
