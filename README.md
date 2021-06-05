@@ -7,3 +7,5 @@ Out Of Ideas
 #### Well, our website is a combination of lessons that include how to have an open approach towards anything and health-being of oneself.
 
 # **How to be a better human and be healthy at the same time!**
+
+[Home](https://github.com/Vid-27/Re-Alive)
