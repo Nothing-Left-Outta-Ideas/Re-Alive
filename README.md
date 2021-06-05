@@ -22,5 +22,5 @@ Out Of Ideas
 - [Toxicity](https://github.com/aatiq-hussain/AKtoxcity47)
 - [Respect](https://github.com/aatiq-hussain/-KrespactAsh)
 - [Satisfaction](https://github.com/aatiq-hussain/uNsAtIsFiEdAK55)
-- [Contact](https://realive-contatct.firelight0130.repl.co/)
+- [Contact](https://replit.com/@FIRElight0130/realive-contatct)
 - [About-Us](https://github.com/AkashRaman/Realive-About-Us)
