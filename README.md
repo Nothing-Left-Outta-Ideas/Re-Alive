@@ -8,6 +8,8 @@ Out Of Ideas
 
 # **How to be a better human and be healthy at the same time!**
 
+#### Below are the files of code repositiries for the rest of the pages we have created,
+
 - [Home](https://github.com/Vid-27/Re-Alive)
 - [Depression](https://github.com/Vid-27/Phase-1)
 - [Lonliness](https://github.com/Vid-27/Phase-2)
