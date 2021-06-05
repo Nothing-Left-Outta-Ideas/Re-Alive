@@ -8,16 +8,16 @@ Out Of Ideas
 
 # **How to be a better human and be healthy at the same time!**
 
--[Home](https://github.com/Vid-27/Re-Alive)
--[Depression](https://github.com/Vid-27/Phase-1)
--[Lonliness](https://github.com/Vid-27/Phase-2)
--[Communication](https://github.com/Vid-27/Phase-4)
--[Family](https://github.com/Vid-27/Phase-5)
--[Friendship](https://github.com/Vid-27/reimagined-fortnight)
--[Physical Health](https://github.com/aatiq-hussain/just-try--1)
--[Mental Health](https://github.com/AkashRaman/Realive---Mental-State)
--[Nature](https://github.com/AkashRaman/Realive-Nature)
--[Toxicity](https://github.com/aatiq-hussain/AKtoxcity47)
--[Respect](https://github.com/aatiq-hussain/-KrespactAsh)
--[Satisfaction](https://github.com/aatiq-hussain/uNsAtIsFiEdAK55)
+- [Home](https://github.com/Vid-27/Re-Alive)
+- [Depression](https://github.com/Vid-27/Phase-1)
+- [Lonliness](https://github.com/Vid-27/Phase-2)
+- [Communication](https://github.com/Vid-27/Phase-4)
+- [Family](https://github.com/Vid-27/Phase-5)
+- [Friendship](https://github.com/Vid-27/reimagined-fortnight)
+- [Physical Health](https://github.com/aatiq-hussain/just-try--1)
+- [Mental Health](https://github.com/AkashRaman/Realive---Mental-State)
+- [Nature](https://github.com/AkashRaman/Realive-Nature)
+- [Toxicity](https://github.com/aatiq-hussain/AKtoxcity47)
+- [Respect](https://github.com/aatiq-hussain/-KrespactAsh)
+- [Satisfaction](https://github.com/aatiq-hussain/uNsAtIsFiEdAK55)
 
