@@ -8,6 +8,8 @@ Out Of Ideas
 
 # **How to be a better human and be healthy at the same time!**
 
+![](https://github.com/Vid-27/Re-Alive/blob/master/Resource/css/img/WhatsApp%20Image%202021-05-13%20at%2012.18.37%20AM.jpeg)
+
 #### Below are the files of code repositiries for the rest of the pages we have created,
 
 - [Home](https://github.com/Vid-27/Re-Alive)
@@ -25,5 +27,4 @@ Out Of Ideas
 - [Contact](https://replit.com/@FIRElight0130/realive-contatct)
 - [About-Us](https://github.com/AkashRaman/Realive-About-Us)
 
-![](https://github.com/Vid-27/Re-Alive/blob/master/Resource/css/img/WhatsApp%20Image%202021-05-13%20at%2012.18.37%20AM.jpeg)
 
