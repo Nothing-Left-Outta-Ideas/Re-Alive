@@ -11,7 +11,7 @@ Considering the times and challenges each one of us are going through , we have 
 
 
 
-Well, our website is a combination of lessons that include how to have an open approach towards anything and health-being of oneself.
+*Well, our website is a combination of lessons that include how to have an open approach towards anything and health-being of oneself.*
 <br />
 
 
