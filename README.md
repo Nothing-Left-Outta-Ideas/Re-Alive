@@ -32,7 +32,7 @@ Considering the times and challenges each one of us are going through , we have 
 - [Physical Health](https://github.com/aatiq-hussain/just-try--1)
 - [Mental Health](https://github.com/AkashRaman/Realive---Mental-State)
 - [Nature](https://github.com/AkashRaman/Realive-Nature)
-- [Toxicity](https://github.com/aatiq-hussain/AKtoxcity47)
+- [Toxicity](https://replit.com/@AATIQHUSSAIN/toxic)
 - [Respect](https://github.com/Vid-27/animated-computing-machine)
 - [Satisfaction](https://github.com/AkashRaman/Satisfaction)
 - [Contact](https://replit.com/@FIRElight0130/realive-contatct)
