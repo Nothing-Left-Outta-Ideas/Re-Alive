@@ -25,5 +25,5 @@ Out Of Ideas
 - [Contact](https://replit.com/@FIRElight0130/realive-contatct)
 - [About-Us](https://github.com/AkashRaman/Realive-About-Us)
 
-![](Resource/css/img/WhatsApp%20Image%202021-05-13%20at%2012.18.37%20AM.jpeg)
+![](https://github.com/Vid-27/Re-Alive/blob/master/Resource/css/img/WhatsApp%20Image%202021-05-13%20at%2012.18.37%20AM.jpeg)
 
