@@ -11,11 +11,13 @@ https://user-images.githubusercontent.com/72182858/120918216-e0af1580-c6d0-11eb-
 
 
 
-
 #### Well, our website is a combination of lessons that include how to have an open approach towards anything and health-being of oneself.
+<br />
+
 
 # **How to be a better human and be healthy at the same time!**
 <br />
+
 
 ![](https://github.com/Vid-27/Re-Alive/blob/master/Resource/css/img/WhatsApp%20Image%202021-05-13%20at%2012.18.37%20AM.jpeg)
 
