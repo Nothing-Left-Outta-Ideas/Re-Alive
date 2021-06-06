@@ -11,7 +11,7 @@ https://user-images.githubusercontent.com/72182858/120918216-e0af1580-c6d0-11eb-
 
 
 
-#### Well, our website is a combination of lessons that include how to have an open approach towards anything and health-being of oneself.
+## Well, our website is a combination of lessons that include how to have an open approach towards anything and health-being of oneself.
 <br />
 
 
