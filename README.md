@@ -38,4 +38,6 @@ Considering the times and challenges each one of us are going through , we have 
 - [Contact](https://replit.com/@FIRElight0130/realive-contatct)
 - [About-Us](https://github.com/AkashRaman/Realive-About-Us)
 
-
+<a href="https://github.com/Vid-27/Re-Alive/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Vid-27/Re-Alive" />
+</a>
